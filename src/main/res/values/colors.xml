@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="year">#dbd9d9</color>
+    <color name="title">#222222</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="top">#1F366C</color>
+    <color name="dotdarkscreen1">#d1395c</color>
+    <color name="dotdarkscreen2">#14a895</color>
+    <color name="dotdarkscreen3">#2278d4</color>
+    <color name="dotdarkscreen4">#a854d4</color>
+    <color name="tabs">#009AB7</color>
+    <color name="dotlightscreen1">#f98da5</color>
+    <color name="dotlightscreen2">#8cf9eb</color>
+    <color name="dotlightscreen3">#93c6fd</color>
+    <color name="dotlightscreen4">#e4b5fc</color>
+
+    <array name="arraydotactive">
+        <item>@color/dotlightscreen1</item>
+        <item>@color/dotlightscreen2</item>
+        <item>@color/dotlightscreen3</item>
+        <item>@color/dotlightscreen4</item>
+    </array>
+
+    <array name="arraydotinactive">
+        <item>@color/dotdarkscreen1</item>
+        <item>@color/dotdarkscreen2</item>
+        <item>@color/dotdarkscreen3</item>
+        <item>@color/dotdarkscreen4</item>
+    </array>
+</resources>

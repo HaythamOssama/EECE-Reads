@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout_1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:alpha="0.6"
+                android:background="#F5E36F"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/label_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="List All\nAvailable Books"
+                android:textAlignment="center"
+                android:textColor="#3e3e3e"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/dummy_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="List All\nAvailable Books"
+                android:textAlignment="center"
+                android:textColor="#ffffff "
+                android:textSize="40sp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout_2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back2" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:alpha="0.5"
+                android:background="#F19D2B"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/label_2"
+                android:text="Return A\nBorrowed Book"
+                android:textAlignment="center"
+                android:textColor="#3e3e3e"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/dummy_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Return A\nBorrowed Book"
+                android:textAlignment="center"
+                android:textColor="#ffffff "
+                android:textSize="40sp" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout_3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back3" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:alpha="0.6"
+                android:background="#00B8BB"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/label_3"
+                android:text="Add A\nNew Book"
+                android:textAlignment="center"
+                android:textColor="#3e3e3e"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/dummy_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Add A\nNew Book"
+                android:textAlignment="center"
+                android:textColor="#ffffff "
+                android:textSize="40sp" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout_4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/back4" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:alpha="0.7"
+                android:background="@color/top"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/label_4"
+                android:text="Request A Book"
+                android:textAlignment="center"
+                android:textColor="#3e3e3e"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/dummy_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Request A Book"
+                android:textAlignment="center"
+                android:textColor="#ffffff "
+                android:textSize="40sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout_5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/back5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:alpha="0.3"
+                android:background="#CD00FA"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/label_5"
+                android:text="Feedback"
+                android:textAlignment="center"
+                android:textColor="#3e3e3e"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/dummy_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Feedback"
+                android:textAlignment="center"
+                android:textColor="#ffffff "
+                android:textSize="40sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

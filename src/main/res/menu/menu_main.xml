@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".List_All_Books.ListAllBooks">
+
+    <item
+        android:id="@+id/inner_menu"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/menu_item_arrange_alpha"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:orderInCategory="1"
+                app:showAsAction="never"
+                android:title="@string/arrange_alphabetically" />
+            <item
+                android:id="@+id/menu_item_arrange_author"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:orderInCategory="1"
+                app:showAsAction="never"
+                android:title="@string/arrange_by_author" />
+            <item
+                android:id="@+id/menu_item_arrange_type"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:orderInCategory="1"
+                app:showAsAction="never"
+                android:title="@string/arrange_by_type" />
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="@string/search"
+        />
+
+
+</menu>

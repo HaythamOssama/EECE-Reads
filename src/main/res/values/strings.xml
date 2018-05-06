@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EECE Reads</string>
+    <string name="appbarscrolling_viewbehavior">View Text</string>
+    <string name="list_all_books">List all books</string>
+    <string name="submit_request">Submit a book request</string>
+    <string name="submit_borrowed">Submit borrowed book</string>
+    <string name="arrange_alphabetically">Arrange Alphabetically</string>
+    <string name="arrange_by_author">Arrange By Author</string>
+    <string name="search">Search</string>
+    <string name="arrange_by_type">Arrange by type</string>
+    <string name="refresh_feed">Refresh feed</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide1title">Welcome to EECE Reads</string>
+    <string name="slide1desc">A dedicated application for EECE book library</string>
+
+    <string name="slide2title">Borrow Books</string>
+    <string name="slide2desc">List all available books submitted by EECE students and borrow any by one click</string>
+
+    <string name="slide3title">Submit a Book Request</string>
+    <string name="slide3desc">If the book you\'re looking for isn\'t available, submit a request and someone will add it to the library</string>
+
+    <string name="slide4title">Help Out</string>
+    <string name="slide4desc">Books you have read before may be a new adventure for another student. Add your books so other students can read them too.</string>
+
+</resources>
